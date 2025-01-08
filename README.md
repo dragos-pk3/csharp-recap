@@ -11,7 +11,10 @@
 
 
 # Console Basics
-    - Basic Hello World Program
+..*Basic Hello World Program
+..*Basic Input and Output
+..*Command Line Arguments
+..*Conditional Statements
 
 # Basic Class and Objects
 

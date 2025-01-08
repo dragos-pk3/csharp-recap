@@ -1,0 +1,54 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Build Folders
+bin/
+obj/
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# ASP.NET
+node_modules/
+wwwroot/
+
+# Dependency Directories
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Visual Studio Code
+.vscode/
+
+# Backup and temporary files
+*~
+*.tmp
+*.bak
+*.swp
+*.sln.docstates
+
+# Database files
+*.mdf
+*.ldf
+
+# Others
+*.dbmdl
+*.jfm
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# User-specific files
+*.rsuser
+*.resharper-user
+
+# DotNetCore
+*.vspscc
+*.vspcc
