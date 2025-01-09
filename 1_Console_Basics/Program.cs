@@ -1,4 +1,5 @@
 ﻿using System;
+using Task2;
 
 namespace Task1
 {
@@ -18,6 +19,10 @@ namespace Task1
             int powerLevel = args.Length > 1 ? int.Parse(args[1]) : int.Parse(Console.ReadLine() ?? string.Empty); // will throw an error if the input is not a number
 
             Console.WriteLine($"You claim your power level is {powerLevel}!");
+
+            Player player = new Player(name, powerLevel);
+
+            player.ReadStats(player.PlayerStats());
 
             Console.WriteLine(powerLevel > 9000 && powerLevel < 10000 ? "Indeed, you are powerfull!" : "You're either weak or you're lying!");
 
