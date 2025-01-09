@@ -17,9 +17,9 @@ namespace Task1
             
             int powerLevel = args.Length > 1 ? int.Parse(args[1]) : int.Parse(Console.ReadLine() ?? string.Empty); // will throw an error if the input is not a number
 
-            Console.WriteLine($"You claim your power level is {powerLevel}!");
+            Console.WriteLine($"\nYou claim your power level is {powerLevel}!");
 
-            Console.WriteLine(powerLevel > 9000 && powerLevel < 10000 ? "Indeed, you are powerfull!" : "You're either weak or you're lying!");
+            Console.WriteLine(powerLevel > 9000 && powerLevel < 10000 ? "Indeed, you are powerful!" : "You're either weak or you're lying!");
 
 
         }
