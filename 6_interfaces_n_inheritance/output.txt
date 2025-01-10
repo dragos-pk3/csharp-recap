@@ -1,0 +1,35 @@
+Goblin has been created with a 6 die cap.
+-------------Movement-------------
+Hero uses the Player Movement Controller for movement.
+Goblin uses the AI Pathfinding System for movement.
+Hero has encountered a Goblin!
+----------------------------------
+Name: Hero
+Health: (100/100)
+Attack Power: 20
+----------------VS----------------
+Name: Goblin
+Health: (50/50)
+Attack Power: 15
+--------------Battle--------------
+Hero attacks Goblin for 20 damage.
+Goblin takes 20 damage.
+Goblin attacks Hero for 15 damage.
+Hero takes 15 damage.
+Hero has the following items in their inventory:
+- Sword
+- Potion
+Hero uses Potion
+Hero has the following items in their inventory:
+- Sword
+Since Goblin is a monster, it cannot heal.
+Goblin is rolling to avoid self damage.
+Goblin has rolled a 6 and has avoided self damage successfully.
+Hero attacks Goblin for 20 damage.
+Goblin has rolled a 6 and damage has been halved.
+Goblin is enraged and will perform a powerful attack!
+Goblin attacks Hero for 50 damage.
+Hero takes 50 damage.
+-----------HealthStatus-----------
+Hero has (45/100) health.
+Goblin has (20/50) health.
