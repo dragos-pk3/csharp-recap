@@ -1,0 +1,4 @@
+Endurance: 12
+Force: 23
+Wisdom: 20
+Agility: 40
